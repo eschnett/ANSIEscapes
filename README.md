@@ -1,4 +1,4 @@
-# ANSIEscapes.jl: ANSI escape sequences for terminal control.
+# ANSIEscapes.jl: ANSI escape sequences for terminal control
 
 [ANSI escape
 sequences](https://en.wikipedia.org/wiki/ANSI_escape_code) are a
