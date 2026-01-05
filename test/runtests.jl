@@ -4,7 +4,15 @@ using Test
 
 const AE = ANSIEscapes
 
-if !ispath("/dev/tty")
+have_tty = try
+    tty = open("/dev/tty", "r+")
+    close(tty)
+    true
+catch
+    false
+end
+
+if !have_tty
     # There is no terminal, we need to skip this test
     println("Skipping Device status repport test")
 else
