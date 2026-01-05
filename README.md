@@ -1,5 +1,7 @@
 # ANSIEscapes.jl: ANSI escape sequences for terminal control
 
+[![CI](https://github.com/eschnett/ANSIEscapes/actions/workflows/CI.yml/badge.svg)](https://github.com/eschnett/ANSIEscapes/actions/workflows/CI.yml)
+
 [ANSI escape
 sequences](https://en.wikipedia.org/wiki/ANSI_escape_code) are a
 standard for in-band signaling to control cursor location, color, font
