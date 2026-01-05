@@ -1,0 +1,10 @@
+name = "ANSIEscapes"
+uuid = "4e1dc58e-b9ed-4927-9fa5-f81941d7face"
+version = "0.1.0"
+authors = ["Erik Schnetter <schnetter@gmail.com>"]
+
+[deps]
+TERMIOS = "10233e3b-0d6c-416a-8c1a-d3d286bd6cd2"
+
+[compat]
+TERMIOS = "0.3.0"
